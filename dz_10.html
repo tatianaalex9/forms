@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Социальная сеть</title>
+		<meta charset="UTF-8">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	
+		<style>
+			input[type="checkbox"] {
+				width: 60px;
+				height: 30px;
+				position: relative;
+			}
+			input[type="checkbox"]:before {
+				content: "";
+				display: block;
+				border: 1px solid red;
+				width: 60px;
+				height: 30px;
+				border-radius: 5px;
+				background: #fff;
+			}
+			input[type="checkbox"]:after {
+				content: "";
+				display: block;
+				background: red;
+				width: 26px;
+				height: 26px;
+				border-radius: 5px;
+				position: absolute;
+				top: 3px;
+				right: 1px;
+			}
+			input[type="checkbox"]:checked:before {
+				border: 1px solid green;
+			}
+			input[type="checkbox"]:checked:after {
+				background: green;
+				left: 3px;
+			}
+
+			label span {
+				margin-left: 50px;
+			}
+
+			input[type="radio"] {
+				width: 40px;
+				height: 40px;
+				position: relative;
+			}
+			input[type="radio"]:before {
+				content: "";
+				display: block;
+				border: 1px solid green;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				background: #fff;
+			}
+			input[type="radio"]:checked:after {
+				content: "";
+				display: block;
+				background: green;
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				border-radius: 50%;
+				top: 6px;
+				right: 4px;
+			}
+
+		</style>
+
+	</head>
+	
+	<body>
+		
+		<label>
+			<input type="checkbox">
+			<span>Subscribe</span>
+		</label>
+		
+		<label>
+			<input type="radio">
+			<span>Male</span>
+		</label>
+		
+		
+		
+	</body>
+</html>

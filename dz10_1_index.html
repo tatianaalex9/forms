@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dz10_1_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма авторизации</title>
+</head>
+<body>
+    <div class="container">
+        <h3>CREDIT CARD DETAILS</h3>
+        <form action="#" method="post">
+            <label for="cardNumber">Card Number</label>
+            <input id="cardNumber" type="tel" maxlength="16" name="cardNumber" placeholder="1234 5678 9012 3456">
+
+            <label for="cardHolder">Name On Card</label>
+            <input type="text" id="cardHolder" name="cardHolder" placeholder="Name Surname">
+
+            <div class="line">
+
+                <div class="expiry">
+                    <label for="expiryDate">Expiry Date</label>
+                    <input type="text" id="expiryDate" maxlength="2" name="expiryDate" placeholder="02">
+                </div>
+
+                <div class="expiry">
+                    <input type="text" id="expiryYear" maxlength="4" name="expiryYear" placeholder="2017">
+                </div>
+       
+                <div class="expiry">
+                    <label for="cvv">CVV/CVN</label>
+                    <input type="text" id="cvv" maxlength="3" name="cvv" placeholder="***">
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

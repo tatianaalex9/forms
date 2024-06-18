@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dz10_3_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+</head>
+<body>
+    <div class="container">
+    
+        <div class="block">   
+        <!-- ------------------Registration form-----------------------     -->
+            <form action="#" method="post" class="form">
+                <h3>Registration form</h3>
+
+                <div class="box">
+                    <img src="./images/username.png" alt="Username">
+                    <input class="user" type="text" placeholder="Username">
+                </div> 
+
+                <div class="box">
+                    <img src="./images/email.png" alt="Username">
+                    <input class="user" type="email" placeholder="Email address">
+                </div> 
+                
+                <div class="box passwords">
+                    <img src="./images/pswd.png" alt="Username">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm password">
+                </div>    
+            </form>
+        
+        <!-- ------------------Personal details-----------------------     -->
+            <form action="#" method="post" class="form">
+                <h3>Personal details</h3>
+
+                <div class="box details">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+                
+                <div class="box details">
+                    <select id="gender" name="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <input type="date" placeholder="mm/dd/yyyy">
+                </div> 
+            </form>
+
+        </div> 
+        <!-- ------------------choose-----------------------     -->
+        <div class="chooses">
+            <div class="choose">
+                <label for="offer">I want to receive news and special offers</label>
+                <input class="checkbox" type="checkbox" id="offer" name="offer">
+            </div>
+            <div class="choose">
+                <label for="agree">I agree with the Tems and Conditions</label>
+                <input class="checkbox" type="checkbox" id="agree" name="agree">
+            </div>
+        </div>
+        <hr>
+        <!-- ------------------submit-----------------------     -->
+        <div class="buttons">
+            <button type="submit">SUBMIT</button>
+        </div>
+
+    </div>
+</body>
+</html>

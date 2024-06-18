@@ -1,0 +1,60 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto;
+    font-family: sans-serif;
+    position: relative;
+    border-radius: 15px;
+    background: url(./images/flag.png) no-repeat bottom -60px  right -88px; 
+    background-color: #9FCDCD;
+    
+}
+
+h3 {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    background: #DB6423;
+    color: #fff;
+    padding: 15px 0 15px 76px;
+    width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding: 100px 50px 50px 50px;
+    gap: 12px;
+}
+
+input {
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    font-size: 16px;
+    background: #B0DBDB;
+}
+
+.line {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.expiry label {
+   line-height: 240%;
+}
+
+.expiry input {
+    width: 90px;
+    height: 40px;
+}
+
+
